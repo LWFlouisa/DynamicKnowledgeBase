@@ -1,5 +1,5 @@
 knowledge_bases = [
-  "objects", "subjects", "verb"
+  "object", "subject", "verb"
 ]
 
 chosen_knowledge_base = File.read("lib/data/knowledgebase/choice.txt").strip.to_i
